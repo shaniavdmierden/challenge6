@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -57,6 +60,7 @@
                                 </div>
                             </li>
                             <li><a href="contact.php" class="active">Contact</a></li> 
+                            <li><?php include_once("assets/includes/inloguitlog.php");?></li>
                         </ul>        
                         <a class='menu-trigger'>
                             <span>Menu</span>

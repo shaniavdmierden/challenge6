@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -50,14 +53,14 @@
                             <li><a href="cars.php">Cars</a></li>
                             <li class="dropdown">
                                 <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">About</a>
-                              
                                 <div class="dropdown-menu">
                                     <a class="dropdown-item" href="about.php">About Us</a>
                                     <a class="dropdown-item" href="faq.php">FAQ</a>
                                     <a class="dropdown-item" href="terms.php">Terms</a>
                                 </div>
                             </li>
-                            <li><a href="contact.php">Contact</a></li> 
+                            <li><a href="contact.php">Contact</a></li>
+                            <li><?php include_once("assets/includes/inloguitlog.php");?></li>
                         </ul>        
                         <a class='menu-trigger'>
                             <span>Menu</span>
