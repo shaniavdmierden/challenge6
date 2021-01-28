@@ -101,7 +101,7 @@
                         <i class="fa fa-phone"></i>
                     </div>
 
-                    <h5><a href="#">+1 333 4040 5566</a></h5>
+                    <h5><a href="#">+31 6 001 155 11</a></h5>
 
                     <br>
                 </div>
@@ -111,7 +111,7 @@
                         <i class="fa fa-envelope"></i>
                     </div>
 
-                    <h5><a href="#">contact@company.com</a></h5>
+                    <h5><a href="#">info@vistacars.nl</a></h5>
 
                     <br>
                 </div>
@@ -121,7 +121,7 @@
                         <i class="fa fa-map-marker"></i>
                     </div>
 
-                    <h5>212 Barrington Court New York</h5>
+                    <h5>Locations: Maastricht, Sittard, Heerlen</h5>
 
                     <br>
                 </div>
