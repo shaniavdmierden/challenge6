@@ -177,19 +177,8 @@
     </section>
     <!-- ***** Contact Us Area Ends ***** -->
     
-    <!-- ***** Footer Start ***** -->
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <p>
-                        Copyright © 2020 Company Name
-                        - Template by: <a href="https://www.phpjabbers.com/">PHPJabbers.com</a>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </footer>
+    <!-- FOOTER -->
+    <?php Include("assets/includes/footer.php"); ?>
 
     <!-- jQuery -->
     <script src="assets/js/jquery-2.1.0.min.js"></script>
