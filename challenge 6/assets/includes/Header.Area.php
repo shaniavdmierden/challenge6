@@ -27,6 +27,7 @@
                                 </div>
                             </li>
                             <li><?php include_once("assets/includes/inloguitlog.php");?></li>
+                            <li><?php include_once("assets/includes/add.button.php");?></li>
                         </ul>        
                         <a class='menu-trigger'>
                             <span>Menu</span>
