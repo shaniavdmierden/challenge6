@@ -1,9 +1,9 @@
 <?php
 
 if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
-       $button = ' <p> <a href="assets/inlog/logout.php">Logout</a> </p>';
+       $button = '<a href="assets/inlog/logout.php">Logout</a>';
 } else {
-       $button = ' <p> <a href="inlog.php">Admin</a> </p>';
+       $button = '<a href="inlog.php">Admin</a>';
 }
 
 echo $button;
