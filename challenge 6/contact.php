@@ -60,7 +60,7 @@ require_once("assets/languages/lang.$lang.php")
                     <div class="cta-content">
                         <br>
                         <br>
-                        <h2>Feel free to <em>Contact Us</em></h2>
+                        <?php echo CONTACT_US_2; ?>
                         <p>Ut consectetur, metus sit amet aliquet placerat, enim est ultricies ligula</p>
                     </div>
                 </div>
@@ -74,7 +74,7 @@ require_once("assets/languages/lang.$lang.php")
             <div class="row text-center">
                 <div class="col-lg-6 offset-lg-3">
                     <div class="section-heading">
-                        <h2>contact <em> info</em></h2>
+                      <?php echo CONTACT_INFORMATION; ?>
                         <img src="assets/images/line-dec.png" alt="waves">
                         
                     </div>
@@ -105,7 +105,7 @@ require_once("assets/languages/lang.$lang.php")
                         <i class="fa fa-map-marker"></i>
                     </div>
 
-                    <h5>Locations: Maastricht, Sittard, Heerlen</h5>
+                    <?php echo CONTACT_LOCATIONS; ?>
 
                     <br>
                 </div>
@@ -120,7 +120,7 @@ require_once("assets/languages/lang.$lang.php")
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-xs-12">
                     <div id="map">
-                      <iframe src="https://maps.google.com/maps?q=Av.+L%C3%BAcio+Costa,+Rio+de+Janeiro+-+RJ,+Brazil&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="600px" frameborder="0" style="border:0" allowfullscreen></iframe>
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10076.769477197302!2d5.7174463!3d50.8461219!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x952ffbf18f188c5c!2sVISTA%20college!5e0!3m2!1snl!2snl!4v1611915318875!5m2!1snl!2snl" width="100%" height="600px" frameborder="0" style="border:0" allowfullscreen></iframe>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-xs-12">

@@ -28,3 +28,23 @@
 
     define("SEND_US_A_MESSAGE", "<h2>Send us a <em>message</em></h2>");
 
+
+    //inlog
+      
+    define("FILL_IN_CREDENTIALS", "<p>Please fill in your credentials to login.</p>");
+    define("FORM_USERNAME", "Username");
+    define("FORM_PASSWORD", "Password");
+    define("LOGIN_ADMIN", "<h2>Administator <em>Login</em></h2>");
+
+
+
+    //contact
+    define("CONTACT_US_2", "<h2>Feel free to <em>Contact Us</em></h2>");
+    define("CONTACT_INFORMATION", "<h2>contact <em> information</em></h2>");
+    define("CONTACT_LOCATIONS", "<h5>Locations: Maastricht, Sittard, Heerlen</h5>");
+
+
+   
+    
+
+

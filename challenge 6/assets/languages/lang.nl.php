@@ -27,3 +27,18 @@
 
     define("SEND_US_A_MESSAGE", "<h2>Stuur ons een <em>bericht</em></h2>");
 
+
+
+    //inlog
+    define("FILL_IN_CREDENTIALS", "<p>Vul uw gegevens in om in te loggen.</p>");
+    define("FORM_USERNAME", "Gebruikersnaam");
+    define("FORM_PASSWORD", "Wachtwoord");
+    define("LOGIN_ADMIN", "<h2>administrator <em>Inlog</em></h2>");
+
+
+    //contact
+    define("CONTACT_US_2", "<h2>Voel je vrij ons te  <em>Contacteren</em></h2>");
+    define("CONTACT_INFORMATION", "<h2>contact <em> informatie</em></h2>");
+    define("CONTACT_LOCATIONS", "<h5>Locatie's: Maastricht, Sittard, Heerlen</h5>");
+
+
