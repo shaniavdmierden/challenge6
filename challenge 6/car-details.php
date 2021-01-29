@@ -1,5 +1,17 @@
 <?php
 session_start();
+
+
+$lang = $_SERVER['HTTP_ACCEPT_LANGUAGE'];
+$lang = substr($lang, 0,2);
+
+if(isset($_GET['lang'])) {
+    $lang = $_GET['lang'];
+}
+
+require_once("assets/languages/lang.$lang.php")
+
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -38,39 +50,7 @@ session_start();
     
     
     <!-- ***** Header Area Start ***** -->
-    <header class="header-area header-sticky">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <nav class="main-nav">
-                        <!-- ***** Logo Start ***** -->
-                        <a href="index.php" class="logo">v!st@<em>cars</em></a>
-                        <!-- ***** Logo End ***** -->
-                        <!-- ***** Menu Start ***** -->
-                        <ul class="nav">
-                            <li><a href="index.php">Home</a></li>
-                            <li><a href="cars.php" class="active">Cars</a></li>
-                            <li class="dropdown">
-                                <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">About</a>
-                              
-                                <div class="dropdown-menu">
-                                    <a class="dropdown-item" href="about.php">About Us</a>
-                                    <a class="dropdown-item" href="faq.php">FAQ</a>
-                                    <a class="dropdown-item" href="terms.php">Terms</a>
-                                </div>
-                            </li>
-                            <li><a href="contact.php">Contact</a></li> 
-                            <li><?php include_once("assets/includes/inloguitlog.php");?></li>
-                        </ul>        
-                        <a class='menu-trigger'>
-                            <span>Menu</span>
-                        </a>
-                        <!-- ***** Menu End ***** -->
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </header>
+    <?php include_once("assets/includes/Header.Area.php");?>
     <!-- ***** Header Area End ***** -->
 
     <!-- ***** Call to Action Start ***** -->

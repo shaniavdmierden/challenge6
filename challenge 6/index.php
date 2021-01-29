@@ -1,6 +1,21 @@
 <?php
 session_start();
+
+
+$lang = $_SERVER['HTTP_ACCEPT_LANGUAGE'];
+$lang = substr($lang, 0,2);
+
+if(isset($_GET['lang'])) {
+    $lang = $_GET['lang'];
+}
+
+require_once("assets/languages/lang.$lang.php")
+
+
 ?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -23,6 +38,7 @@ session_start();
     </head>
     
     <body>
+
     
     <!-- ***** Preloader Start ***** -->
     <div id="js-preloader" class="js-preloader">
@@ -37,40 +53,8 @@ session_start();
     </div>
     <!-- ***** Preloader End ***** -->
     
-    
     <!-- ***** Header Area Start ***** -->
-    <header class="header-area header-sticky">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <nav class="main-nav">
-                        <!-- ***** Logo Start ***** -->
-                        <a href="index.php" class="logo">V!st@<em>Cars</em></a>
-                        <!-- ***** Logo End ***** -->
-                        <!-- ***** Menu Start ***** -->
-                        <ul class="nav">
-                            <li><a href="index.php" class="active">Home</a></li>
-                            <li><a href="cars.php">Cars</a></li>
-                            <li class="dropdown">
-                                <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">About</a>
-                                <div class="dropdown-menu">
-                                    <a class="dropdown-item" href="about.php">About Us</a>
-                                    <a class="dropdown-item" href="faq.php">FAQ</a>
-                                    <a class="dropdown-item" href="terms.php">Terms</a>
-                                </div>
-                            </li>
-                            <li><a href="contact.php">Contact</a></li>
-                            <li><?php include_once("assets/includes/inloguitlog.php");?></li>
-                        </ul>        
-                        <a class='menu-trigger'>
-                            <span>Menu</span>
-                        </a>
-                        <!-- ***** Menu End ***** -->
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </header>
+    <?php include_once("assets/includes/Header.Area.php");?>
     <!-- ***** Header Area End ***** -->
 
     <!-- ***** Main Banner Area Start ***** -->
@@ -81,9 +65,9 @@ session_start();
 
         <div class="video-overlay header-text">
             <div class="caption">
-                <h2>Best <em>car dealer</em> in town!</h2>
+                <?php echo VIDEO_CAPTION; ?>
                 <div class="main-button">
-                    <a href="contact.php">Contact Us</a>
+                    <a href="contact.php"><?php echo CONTACT_US; ?></a>
                 </div>
             </div>
         </div>
@@ -96,9 +80,9 @@ session_start();
             <div class="row">
                 <div class="col-lg-6 offset-lg-3">
                     <div class="section-heading">
-                        <h2>Featured <em>Cars</em></h2>
+                        <?php echo FEATURED_CARS; ?>
                         <img src="assets/images/line-dec.png" alt="">
-                        <p>Nunc urna sem, laoreet ut metus id, aliquet consequat magna. Sed viverra ipsum dolor, ultricies fermentum massa consequat eu.</p>
+                        <p><?php echo FEATURED_CARS_TEXT; ?></p>
                     </div>
                 </div>
             </div>
@@ -180,7 +164,7 @@ session_start();
             <br>
 
             <div class="main-button text-center">
-                <a href="cars.php">View Cars</a>
+                <a href="cars.php"><?php echo VIEW_CAR; ?></a>
             </div>
         </div>
     </section>
@@ -191,7 +175,7 @@ session_start();
             <div class="row">
                 <div class="col-lg-6 offset-lg-3">
                     <div class="section-heading dark-bg">
-                        <h2>Read <em>About Us</em></h2>
+                        <?php echo READ_ABOUT_US; ?>
                         <img src="assets/images/line-dec.png" alt="">
                         <p>Nunc urna sem, laoreet ut metus id, aliquet consequat magna. Sed viverra ipsum dolor, ultricies fermentum massa consequat eu.</p>
                     </div>
@@ -218,7 +202,7 @@ session_start();
             <div class="row">
                 <div class="col-lg-10 offset-lg-1">
                     <div class="cta-content">
-                        <h2>Send us a <em>message</em></h2>
+                        <?php echo SEND_US_A_MESSAGE; ?>
                         <p>Ut consectetur, metus sit amet aliquet placerat, enim est ultricies ligula, sit amet dapibus odio augue eget libero. Morbi tempus mauris a nisi luctus imperdiet.</p>
                         <div class="main-button">
                             <a href="contact.php">Contact us</a>
