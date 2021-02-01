@@ -44,6 +44,11 @@
     define("CONTACT_LOCATIONS", "<h5>Locations: Maastricht, Sittard, Heerlen</h5>");
 
 
+
+    //form
+    define("FORM_TITLE", "<h2>Admin <em>Form</em></h2>");
+
+
    
     
 
