@@ -4,13 +4,13 @@
 </form>
 
 <?php 
-include "assets/db.php";
+include "db.php";
  
 if(isset($_POST['submit'])){
 
   $countfiles = count($_FILES['files']['name']);
  
-  $query = "INSERT INTO cars (name,image) VALUES(?,?)";
+  $query = "INSERT INTO tb_image (name,image) VALUES(?,?)";
 
   $statement = $conn->prepare($query);
 

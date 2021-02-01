@@ -3,7 +3,7 @@
     function getdbconnection() {
 
         $dbhost     = "localhost";
-        $dbname     = "db_cantine";
+        $dbname     = "db_car_5";
         $dbuser     = "Milan";
         $dbpass     = "Milan";
         $conn       = "";          // connection string
