@@ -102,8 +102,8 @@ require_once("assets/languages/lang.$lang.php")
         //print_r($_POST); //developers code!
 
         include_once("assets/includes/connection.inc.php"); //conntectie DB
-        include_once("assets/includes/collect.inc.php");    //gegevens uit formulier verzamelen
-        include_once("assets/includes/insert.inc.php");     //opslaan gegevens uit DB
+        include_once("assets/includes/admin_verwerkform.inc.php");    //gegevens uit formulier verzamelen
+        include_once("assets/includes/adminform.inc.php");     //opslaan gegevens uit DB
     } 
     include_once("assets/includes/connection.inc.php"); //conntectie DB
     include_once("assets/includes/select.inc.php"); //toon gegevens uit DB

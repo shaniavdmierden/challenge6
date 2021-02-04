@@ -4,5 +4,5 @@
         require_once('admin_verwerkform.inc.php');
     } else {
         //toon het formulier
-        require_once('assets/includes/form.inc.php');
+        require_once('form.inc.php');
     }

@@ -6,7 +6,7 @@
 
 $sql = "INSERT INTO tb_cars (brand, type, bouwjaar, kilometerstand, brandstof, transmission, price, discountprice)
 VALUES ('$brand', '$type', '$bouwjaar', '$kilometerstand', '$brandstof', '$transmission', '$price', '$discountprice')";
-require_once('assets/includes/connection.inc.php');
+require_once('connection.inc.php');
 $stmt = $pdo->prepare($sql);
 $stmt->execute();
 $last_id = $pdo->lastInsertId();
@@ -24,7 +24,7 @@ foreach($_FILES['files']['name'] as $key => $row) {
     $dir = "autoimages/$last_id/" . $name;
     move_uploaded_file($temp, $dir);
 
-    require_once('assets/includes/connection.inc.php');
+    require_once('connection.inc.php');
     $sql = "INSERT INTO tb_image (car_id, name) VALUES (?, ?)";
     $data = array($last_id, $name);
     $stmt = $pdo->prepare($sql);

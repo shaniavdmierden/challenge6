@@ -68,7 +68,7 @@ require_once("assets/languages/lang.$lang.php")
     </section>
 
     <?php
-    include_once('adminform.inc.php');
+    include_once('assets/includes/adminform.inc.php');
     ?>
 
 
