@@ -49,6 +49,11 @@
     define("FORM_TITLE", "<h2>Admin <em>Form</em></h2>");
 
 
+
+    //FAQ
+    define("FAQ_READ", "<h2>Read our <em>FAQ</em></h2>");
+
+
    
     
 

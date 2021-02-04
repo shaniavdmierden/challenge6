@@ -60,7 +60,7 @@ require_once("assets/languages/lang.$lang.php")
                     <div class="cta-content">
                         <br>
                         <br>
-                        <h2>Read our <em>FAQ</em></h2>
+                        <?php echo FAQ_READ; ?>
                         <p>Ut consectetur, metus sit amet aliquet placerat, enim est ultricies ligula</p>
                     </div>
                 </div>
