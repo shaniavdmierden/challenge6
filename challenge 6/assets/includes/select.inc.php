@@ -1,16 +1,19 @@
 <?php
-$sql = "SELECT * FROM tb_cars INNER JOIN tb_image";
+$sql = "SELECT * FROM tb_cars INNER JOIN tb_image ON tb_cars.id = tb_image.car_id";
 
 $stmt = $pdo->prepare($sql);
 $stmt->execute();
 $result = $stmt->fetchAll(); // get result
+
+$pathtoproject = "/Challenge6/challenge 6";
 
 echo "<div class='row'>";
 foreach($result as $key => $row) {
     echo "<div class='col-lg-4'>";
     echo '<div class="trainer-item">';
     echo '<div class="image-thumb">';
-    echo "<img src=../../autoimages/?id=".$row['car_id'];
+    echo "<img src='" . $pathtoproject . "/autoimages/".$row['id'] . "/" . $row['name'] . "' />";
+    //echo "<img src='/Challenge6/challenge 6/autoimages/1/Opel.png' />";
     echo "</div>"; //end image
     echo '<div class="down-content">';
     echo "<span>";

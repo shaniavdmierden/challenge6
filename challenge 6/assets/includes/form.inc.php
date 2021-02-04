@@ -1,8 +1,4 @@
-<?php
-    $thisPage = $_SERVER['PHP_SELF'];
-?>
-
-<form action="<?php echo $thisPage; ?>" enctype="multipart/form-data" method="post">
+<form action="cars.php" enctype="multipart/form-data" method="post">
 
     <input type="text" name="brand" placeholder="Brand"/>
 

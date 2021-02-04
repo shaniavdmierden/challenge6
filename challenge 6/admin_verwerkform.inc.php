@@ -14,7 +14,6 @@ $last_id = $pdo->lastInsertId();
 chmod("autoimages", 0777);
 mkdir("autoimages/$last_id", 0777, true);
 
-print_r($_FILES);
 
 $i = 0;
 foreach($_FILES['files']['name'] as $key => $row) {
