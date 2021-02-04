@@ -37,9 +37,10 @@
 
 
     //contact
-    define("CONTACT_US_2", "<h2>Voel je vrij ons te  <em>Contacteren</em></h2>");
+    define("CONTACT_US_2", "<h2>Neem gerust <em>contact</em> met ons op</h2>");
     define("CONTACT_INFORMATION", "<h2>contact <em> informatie</em></h2>");
     define("CONTACT_LOCATIONS", "<h5>Locatie's: Maastricht, Sittard, Heerlen</h5>");
+    define("CONTACT_US_3", "<p>Hier beneden vind u een aantal manieren om contact met ons op te nemen.</p>");
 
 
     //form
@@ -47,11 +48,11 @@
 
     //FAQ
     define("FAQ_READ", "<h2>Lees onze <em>FAQ</em></h2>");
-    define("FAQ_INFO", "<p>Hier beneden kunt u onze FAQ vinden.</p>");
+    define("FAQ_INFO", "<p>Hier beneden kunt u onze FAQ vinden</p>");
 
     //cars
     define("CARS_TITLE", "<h2>Onze <em>Auto's</em></h2>");
-    define("CARS_UNDER_TITLE", "<p>Neem hier beneden een kijkje naar al onze auto's.</p>");
+    define("CARS_UNDER_TITLE", "<p>Neem hier beneden een kijkje naar al onze auto's</p>");
 
 
 

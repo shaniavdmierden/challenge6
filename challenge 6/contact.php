@@ -61,7 +61,7 @@ require_once("assets/languages/lang.$lang.php")
                         <br>
                         <br>
                         <?php echo CONTACT_US_2; ?>
-                        <p>Ut consectetur, metus sit amet aliquet placerat, enim est ultricies ligula</p>
+                        <?php echo CONTACT_US_3; ?>
                     </div>
                 </div>
             </div>
