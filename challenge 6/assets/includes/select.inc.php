@@ -1,5 +1,5 @@
 <?php
-$sql = "SELECT * FROM tb_cars";
+$sql = "SELECT * FROM tb_cars INNER JOIN tb_image";
 
 $stmt = $pdo->prepare($sql);
 $stmt->execute();
@@ -10,7 +10,7 @@ foreach($result as $key => $row) {
     echo "<div class='col-lg-4'>";
     echo '<div class="trainer-item">';
     echo '<div class="image-thumb">';
-    echo '<img src="assets/images/product-1-720x480.jpg" alt="">';
+    echo "<img src=../../autoimages/?id=".$row['car_id'];
     echo "</div>"; //end image
     echo '<div class="down-content">';
     echo "<span>";
@@ -26,33 +26,3 @@ foreach($result as $key => $row) {
     echo "</div>";
     echo "</div>";
 }
-
-
-
-/*
-<div class="row">
-<div class="col-lg-4">
-    <div class="trainer-item">
-        <div class="image-thumb">
-            <img src="assets/images/product-1-720x480.jpg" alt="">
-        </div>
-        <div class="down-content">
-            <span>
-                <del><sup>$</sup>11999 </del> &nbsp; <sup>$</sup>11779
-            </span>
-
-            <h4>Lorem ipsum dolor sit amet, consectetur</h4>
-
-            <p>
-                <i class="fa fa-dashboard"></i> 130 000km &nbsp;&nbsp;&nbsp;
-                <i class="fa fa-cube"></i> 1800 cc &nbsp;&nbsp;&nbsp;
-                <i class="fa fa-cog"></i> Manual &nbsp;&nbsp;&nbsp;
-            </p>
-
-            <ul class="social-icons">
-                <li><a href="car-details.php">+ View Car</a></li>
-            </ul>
-        </div>
-    </div>
-</div>
-*/

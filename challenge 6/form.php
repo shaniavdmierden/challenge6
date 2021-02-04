@@ -68,46 +68,7 @@ require_once("assets/languages/lang.$lang.php")
     </section>
 
     <?php
-    //gegevens in de database opslaan
-    // we maken eerst een formulier van de input van gegevens
-    //dan maken we connectie met de database
-    //vervolgens slaan we de ingevulde gegevens op in de DB
-
-    // 1. formulier
-    // 2. opslaan
-
-    //verbinding maken met DB via MySQLi
-
-    $servername = "localhost";
-    $username = "root";
-    $password = "";
-
-    //maken verbinding
-
-    $conn = new mysqli($servername, $username, $password);
-
-    //connectie gelukt
-    if ($conn->connect_error) {
-        die("connectie heeft gefaald error code: " . $conn->connection_error);
-    }
-    echo("De verbinding is gemaakt met de DB!");
-    
-    
-    
-    if(isset($_POST['frmGegevens'])) {
-        //opslaan van de gegevens
-    
-        //print_r($_POST); //developers code!
-
-        include_once("assets/includes/connection.inc.php"); //conntectie DB
-        include_once("assets/includes/collect.inc.php");    //gegevens uit formulier verzamelen
-        include_once("assets/includes/insert.inc.php");     //opslaan gegevens uit DB
-    } else {
-        //tonen van formulier
-        include_once("assets/includes/form.inc.php");
-    }
-
-    include_once("assets/includes/connection.inc.php"); //conntectie DB
+    include_once('adminform.inc.php');
     ?>
 
 
