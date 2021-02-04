@@ -12,8 +12,7 @@ foreach($result as $key => $row) {
     echo "<div class='col-lg-4'>";
     echo '<div class="trainer-item">';
     echo '<div class="image-thumb">';
-    echo "<img src='" . $pathtoproject . "/autoimages/".$row['id'] . "/" . $row['name'] . "' />";
-    //echo "<img src='/Challenge6/challenge 6/autoimages/1/Opel.png' />";
+    echo "<img src='" . $pathtoproject . "/autoimages/".$row['id'] . "/" . $row['name'] . "' '>";
     echo "</div>"; //end image
     echo '<div class="down-content">';
     echo "<span>";
