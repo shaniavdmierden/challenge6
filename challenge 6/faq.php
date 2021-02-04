@@ -61,7 +61,7 @@ require_once("assets/languages/lang.$lang.php")
                         <br>
                         <br>
                         <?php echo FAQ_READ; ?>
-                        <p>Ut consectetur, metus sit amet aliquet placerat, enim est ultricies ligula</p>
+                        <?php echo FAQ_INFO; ?>
                     </div>
                 </div>
             </div>

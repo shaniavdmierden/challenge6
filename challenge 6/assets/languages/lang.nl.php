@@ -47,5 +47,6 @@
 
     //FAQ
     define("FAQ_READ", "<h2>Lees onze <em>FAQ</em></h2>");
+    define("FAQ_INFO", "<p>Hier beneden kunt u onze FAQ vinden.</p>");
 
 
