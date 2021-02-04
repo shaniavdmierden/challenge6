@@ -61,8 +61,8 @@ require_once("assets/languages/lang.$lang.php")
                     <div class="cta-content">
                         <br>
                         <br>
-                        <h2>Our <em>Cars</em></h2>
-                        <p>Ut consectetur, metus sit amet aliquet placerat, enim est ultricies ligula</p>
+                        <?php echo CARS_TITLE; ?>
+                        <?php echo CARS_UNDER_TITLE; ?>
                     </div>
                 </div>
             </div>

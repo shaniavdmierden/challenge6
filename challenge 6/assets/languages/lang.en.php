@@ -54,6 +54,9 @@
     define("FAQ_READ", "<h2>Read our <em>FAQ</em></h2>");
     define("FAQ_INFO", "<p>Below you can find the answers to our FAQ.</p>");
 
+    //cars
+    define("CARS_TITLE", "<h2>Our <em>Cars</em></h2>");
+    define("CARS_UNDER_TITLE", "<p>Take a look below to see our cars.</p>");
 
     
 

@@ -13,9 +13,7 @@
                             <li class="dropdown">
                                 <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><?php echo NAV_ABOUT; ?></a>
                                 <div class="dropdown-menu">
-                                    <a class="dropdown-item" href="about.php"><?php echo NAV_ABOUT_US; ?></a>
                                     <a class="dropdown-item" href="faq.php"><?php echo NAV_FAQ; ?></a>
-                                    <a class="dropdown-item" href="terms.php"><?php echo NAV_TERMS; ?></a>
                                 </div>
                             </li>
                             <li><a href="contact.php"><?php echo NAV_CONTACT; ?></a></li>
