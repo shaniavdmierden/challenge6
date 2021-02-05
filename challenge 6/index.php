@@ -168,7 +168,8 @@ require_once("assets/languages/lang.$lang.php")
             </div>
         </div>
     </section>
-    <!-- ***** Cars Ends ***** -->
+    <!-- ***** Cars End ***** -->
+
   
     <section class="section section-bg" id="schedule" style="background-image: url(assets/images/about-fullscreen-1-1920x700.jpg)">
         <div class="container">
@@ -177,10 +178,11 @@ require_once("assets/languages/lang.$lang.php")
                     <div class="section-heading dark-bg">
                         <?php echo READ_ABOUT_US; ?>
                         <img src="assets/images/line-dec.png" alt="">
-                        <p>Nunc urna sem, laoreet ut metus id, aliquet consequat magna. Sed viverra ipsum dolor, ultricies fermentum massa consequat eu.</p>
+                        <?php echo READ_ABOUT_US_OPENING; ?>
                     </div>
                 </div>
             </div>
+            <!--***** Dummytext Start ***** -->
             <div class="row">
                 <div class="col-lg-12">
                     <div class="cta-content text-center">
@@ -190,6 +192,7 @@ require_once("assets/languages/lang.$lang.php")
                     </div>
                 </div>
             </div>
+            <!--***** Dummytext End ***** -->
         </div>
     </section>
 
@@ -203,7 +206,7 @@ require_once("assets/languages/lang.$lang.php")
                 <div class="col-lg-10 offset-lg-1">
                     <div class="cta-content">
                         <?php echo SEND_US_A_MESSAGE; ?>
-                        <p>Ut consectetur, metus sit amet aliquet placerat, enim est ultricies ligula, sit amet dapibus odio augue eget libero. Morbi tempus mauris a nisi luctus imperdiet.</p>
+                        <?php echo SEND_US_A_MESSAGE_TEXT; ?>
                         <div class="main-button">
                             <a href="contact.php">Contact us</a>
                         </div>
@@ -234,6 +237,7 @@ require_once("assets/languages/lang.$lang.php")
     
     <!-- Global Init -->
     <script src="assets/js/custom.js"></script>
+
 
   </body>
 </html>

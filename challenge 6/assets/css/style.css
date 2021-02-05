@@ -1254,7 +1254,7 @@ responsive
   width: 72px;
   height: 72px;
   border-radius: 5px;
-  color: #fff;
+  color: rgb(0, 0, 0);
   background-color: #ed563b;
   font-size: 30px;
   margin: 0 auto 15px;
@@ -1271,3 +1271,5 @@ a:focus,
 a:hover {
   color: #f9735b;
 }
+
+

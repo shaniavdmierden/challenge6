@@ -19,13 +19,15 @@
 
 
     define("FEATURED_CARS", "<h2>Uitgelichte <em>Auto's</em></h2>");
-    define("FEATURED_CARS_TEXT", "Dit Zijn... ");
+    define("FEATURED_CARS_TEXT", "Dit Zijn onze uitgelichte auto's");
    
     define("VIEW_CAR", "Auto's Bekijken");
 
     define("READ_ABOUT_US", "<h2>Lees <em>Over Ons</em></h2>");
+    define("READ_ABOUT_US_OPENING", "<p>Wij zijn Vistacars, gevestigd in Maastricht en Sittard en Heerlen. Elke vestiging is hetzelfde ingericht en wij verkopen alle occasions via deze website.</p>");
 
     define("SEND_US_A_MESSAGE", "<h2>Stuur ons een <em>bericht</em></h2>");
+    define("SEND_US_A_MESSAGE_TEXT", "<p>Heeft u een vraag? Wij zijn er voor u. Stuur ons gerust een bericht als u een vraag heeft over onze producten of website!</p>");
 
 
 
@@ -46,13 +48,22 @@
     //form
     define("FORM_TITLE", "<h2>Admin <em>Form</em></h2>");
 
-    //FAQ
-    define("FAQ_READ", "<h2>Lees onze <em>FAQ</em></h2>");
-    define("FAQ_INFO", "<p>Hier beneden kunt u onze FAQ vinden</p>");
-
     //cars
     define("CARS_TITLE", "<h2>Onze <em>Auto's</em></h2>");
     define("CARS_UNDER_TITLE", "<p>Neem hier beneden een kijkje naar al onze auto's</p>");
+
+    //FAQ
+
+    define("FAQ_READ", "<h2>lees onze <em>FAQ</em></h2>");
+    define("FAQ_INFO", "<p>hieronder kan u onze FAQ vinden.</p>");
+    define("FAQ_Q1", "<h4><i class='fa fa-question-circle'></i> hoe kan je ons een bericht sturen?</h4>");
+    define("FAQ_A1", "<p> Ga naar de knop contact, vervolgens kun je kiezen of je wilt bellen of mailen.</p>");  
+    define("FAQ_Q2", "<h4><i class='fa fa-question-circle'></i> waar vindt je meer informatie over de auto's?</h4>");
+    define("FAQ_A2", "<p> Als je op de homepagina bent kun je naar onder scrollen of op de auto pagina zelf en daar daar vindt je foto's van de auto's die wij hebben en als je er vervolgens op klikt dan zie je verdere informatie.</p>");   
+    define("FAQ_Q3", "<h4><i class='fa fa-question-circle'></i> Hoe verander je de taal?</h4>");
+    define("FAQ_A3", "<p> Door naar de knop: taal bovenaan de website te gaan.</p>");  
+    define("FAQ_Q4", "<h4><i class='fa fa-question-circle'></i> Waar vind ik de voertuigspecificaties?</h4>");
+    define("FAQ_A4", "<p> Door op je gekozen auto te drukken, en daar vind je dan de optie voertuigsecificaties.</p>");
 
 
 

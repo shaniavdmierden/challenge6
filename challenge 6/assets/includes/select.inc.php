@@ -5,7 +5,7 @@ $stmt = $pdo->prepare($sql);
 $stmt->execute();
 $result = $stmt->fetchAll(); // get result
 
-$pathtoproject = "/Challenge6/challenge 6";
+$pathtoproject = "/GitHub/challenge6/challenge6/challenge 6/";
 
 echo "<div class='row'>";
 foreach($result as $key => $row) {
@@ -28,3 +28,4 @@ foreach($result as $key => $row) {
     echo "</div>";
     echo "</div>";
 }
+?>

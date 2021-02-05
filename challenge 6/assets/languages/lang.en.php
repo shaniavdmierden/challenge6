@@ -20,13 +20,15 @@
 
 
     define("FEATURED_CARS", "<h2>Featured <em>Cars</em></h2>");
-    define("FEATURED_CARS_TEXT", "These are... ");
+    define("FEATURED_CARS_TEXT", "These are our featured cars. ");
 
     define("VIEW_CAR", "View Cars");
 
     define("READ_ABOUT_US", "<h2>Read <em>About Us</em></h2>");
+    define("READ_ABOUT_US_OPENING", "<p>We are Vistacars, located in Maastricht, Sittard and Heerlen. Every establishment is decorated the same, and we sell all occasions on this website.</p>");
 
     define("SEND_US_A_MESSAGE", "<h2>Send us a <em>message</em></h2>");
+    define("SEND_US_A_MESSAGE_TEXT", "<p>Do you have a question? We are here for you. Send us a message if you have a question about our services or website.</p>");
 
 
     //inlog
@@ -50,19 +52,23 @@
     define("FORM_TITLE", "<h2>Admin <em>Form</em></h2>");
 
 
-
-    //FAQ
-    define("FAQ_READ", "<h2>Read our <em>FAQ</em></h2>");
-    define("FAQ_INFO", "<p>Below you can find the answers to our FAQ</p>");
-
     //cars
     define("CARS_TITLE", "<h2>Our <em>Cars</em></h2>");
     define("CARS_UNDER_TITLE", "<p>Take a look below to see our cars</p>");
 
+    //FAQ
+    define("FAQ_READ", "<h2>Read our <em>FAQ</em></h2>");
+    define("FAQ_INFO", "<p>Below you can find the answers to our FAQ.</p>");
+    define("FAQ_Q1", "<h4><i class='fa fa-question-circle'></i> How can you send us a message?</h4>");
+    define("FAQ_A1", "<p> Go to the button contact, then you can choose whether you want to call or email.</p>");  
+    define("FAQ_Q2", "<h4><i class='fa fa-question-circle'></i> Where can you find more information about the cars?</h4>");
+    define("FAQ_A2", "<p> If you are on the home page you can scroll down or on the car page itself and there you will find pictures of the cars that we have and then if you click on them you will see further information.</p>");   
+    define("FAQ_Q3", "<h4><i class='fa fa-question-circle'></i> How to change the language?</h4>");
+    define("FAQ_A3", "<p> By going to the button: language at the top of the website.</p>");  
+    define("FAQ_Q4", "<h4><i class='fa fa-question-circle'></i> Where to find the vehicle specifications?</h4>");
+    define("FAQ_A4", "<p> By pressing on your chosen car, and there you'll find the option vehicle specifications.</p>");
+
+
+
+
     
-
-
-   
-    
-
-
